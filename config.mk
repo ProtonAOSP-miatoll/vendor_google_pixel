@@ -25,12 +25,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
 DEVICE_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
-# Properties
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=The_big_adventure.ogg \
-    ro.config.notification_sound=End_note.ogg \
-    ro.config.alarm_alert=Bright_morning.ogg
-
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     vendor/google/pixel/sepolicy
